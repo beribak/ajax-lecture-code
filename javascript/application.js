@@ -11,7 +11,7 @@ form.addEventListener('submit', (event) => {
 
     event.preventDefault()
     
-    // call api and manipulate DOM
+    // 3 call api and manipulate DOM
     const url = "https://reqres.in/api/register"
     fetch(url, {
         method: "POST",
