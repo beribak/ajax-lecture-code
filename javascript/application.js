@@ -11,8 +11,8 @@ form.addEventListener('submit', (event) => {
 
     event.preventDefault()
     
+    // call api and manipulate DOM
     const url = "https://reqres.in/api/register"
-    
     fetch(url, {
         method: "POST",
         headers: {'Content-Type': "application/json"},
